@@ -1,18 +1,16 @@
 
 <html lang="en" dir="ltr">
   <head>
-    practice1
+
     <meta charset="utf-8">
     <title>practice1</title>
+    <link type="text/css" rel="stylesheet" href="web.css" />
     <script type="text/javascript">
       function page_load()
       {
 
       }
-      function txt2_focus()
-      {
-        alert("Im in")
-      }
+      
       function txt1_blur()
       {
         alert("im in out")
@@ -22,13 +20,23 @@
         alert(e.keycode)
         document.getElementById('counter').innerHTML = eval(document.getElementById('counter').innerHTML)
       }
+      try
+      {
+          alert("wait")
+      }
+      catch
+      {
+        alert("خطا در سرور")
+      }
 
     </script>
+
+    <h2>head of the web</h2>
   </head>
 
   <body onload="page_load()">
     <input type="txt" id="txt1" onblur="txt1_blur()" onkeyup="txt1_keyup()">
-    <input type="text" id="txt2" onfocus="txt2_focus()">
+
     <br />
     <span id="counter">0</span>
   </body>

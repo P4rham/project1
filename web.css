@@ -1,0 +1,15 @@
+div{
+  background-color: #87CEFA;
+  color:light yellow;
+}
+.d1{
+     height: 180px;
+     width: 1500px;
+   }
+h2{
+  border: 4px dotted blue;
+  width:auto;
+  height: 100px;
+  font-style: oblique;
+  text-align: center;
+}
